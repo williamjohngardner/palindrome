@@ -7,7 +7,7 @@ word = input("Enter your word to see if it's a palindrome: ").lower()
 punctuation = ['(', ')', '?', ':', ';', ',', '.', '!', '/', '"', "'", " "]
 for i in punctuation:
     word = word.replace(i, "")
-
+# I love Hope's variable name too.
 a = word[0]
 b = word[-1]
 count1 = 0
